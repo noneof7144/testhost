@@ -7,8 +7,9 @@ exports.handler = async (event) => {
     statusCode: 200,
 
     headers:{ 'Content-Type': 'text/plain;charset=utf-8'},
-    body: JSON.stringify(
+    body: JSON.stringify({message:'Account successfully created', user:
 	    { user_id : userid, password: passw}
+    }
     ),
   };
 };
