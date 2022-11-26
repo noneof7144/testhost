@@ -1,0 +1,22 @@
+{
+  "name": "githubs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "netlify-lambda serve resources/api",
+    "build": "netlify-lambda build resources/api"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noneof7144/testhost.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noneof7144/testhost/issues"
+  },
+  "homepage": "https://github.com/noneof7144/testhost#readme"
+}
