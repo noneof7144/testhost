@@ -5,8 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "netlify-lambda serve resources/api"
+    "dev": "netlify-lambda serve resources/api",
+    "build": "netlify-lambda build resources/api"
+    
   },
+  "dependencies":{
+   "netlify-lambda": "^2.0.15"
+  }
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noneof7144/testhost.git"
